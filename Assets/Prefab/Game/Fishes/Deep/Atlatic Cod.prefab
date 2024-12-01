@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3075156775359856820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704004505935969174}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1704004505935969174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3075156775359856820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3071618130838441426}
+  m_Father: {fileID: 8985285886570458584}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8985285886570458585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8985285886570458584}
+  - component: {fileID: 8985285886570458587}
+  - component: {fileID: 7597025009804185839}
+  m_Layer: 0
+  m_Name: Atlatic Cod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8985285886570458584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8985285886570458585}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1215086, y: -3.1762857, z: 7.5101576}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1704004505935969174}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8985285886570458587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8985285886570458585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1f1d60b9ef54f4bb112b07ce8b89c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currDepth: 2
+  fishType: 3
+  loseTime: 7
+  catchTime: 16
+  targetSpeed: 36
+  inTargetTime: 2
+  inTargetRange: 8
+  isStartSwiming: 0
+  moveSpeed: {x: 1, y: 2}
+  rotateSpeed: {x: 20, y: 30}
+  fishName: Atlatic Cod
+  fishImage: {fileID: 21300000, guid: 38d9787ab4c28af49b7be403c42946be, type: 3}
+  fishPrice: 100
+--- !u!111 &7597025009804185839
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8985285886570458585}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: fff76caff51bb3c43a80d6b374003ef9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: fff76caff51bb3c43a80d6b374003ef9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1001 &3254463257686780473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1704004505935969174}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071055
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0014482188
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0014129026
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.769
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.993
+      objectReference: {fileID: 0}
+    - target: {fileID: -6529912339341296390, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bcdbc017402adb540b7643dafaf4c373, type: 2}
+    - target: {fileID: 919132149155446097, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+      propertyPath: m_Name
+      value: Atlatic Cod
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+--- !u!4 &3071618130838441426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa60318eccad5f043bf8a18cd8458adb, type: 3}
+  m_PrefabInstance: {fileID: 3254463257686780473}
+  m_PrefabAsset: {fileID: 0}

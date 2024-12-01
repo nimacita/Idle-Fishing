@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3339448038730263226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1391871318603583896}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1391871318603583896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339448038730263226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3338760435697708558}
+  m_Father: {fileID: 8666923974506923990}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8666923974506923991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8666923974506923990}
+  - component: {fileID: 8666923974506923989}
+  - component: {fileID: 7897960771491117793}
+  m_Layer: 0
+  m_Name: ArcherFish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8666923974506923990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8666923974506923991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1215086, y: -3.1762857, z: 7.5101576}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1391871318603583896}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8666923974506923989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8666923974506923991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1f1d60b9ef54f4bb112b07ce8b89c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currDepth: 1
+  fishType: 2
+  loseTime: 6
+  catchTime: 12
+  targetSpeed: 25
+  inTargetTime: 2
+  inTargetRange: 8
+  isStartSwiming: 0
+  moveSpeed: {x: 1, y: 2}
+  rotateSpeed: {x: 15, y: 20}
+  fishName: ArcherFish
+  fishImage: {fileID: 21300000, guid: 28fb92e20367e55489b6140e81e247b4, type: 3}
+  fishPrice: 70
+--- !u!111 &7897960771491117793
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8666923974506923991}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: fff76caff51bb3c43a80d6b374003ef9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: fff76caff51bb3c43a80d6b374003ef9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1001 &3017149586631199205
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1391871318603583896}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071055
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0014482188
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0014129026
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.769
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.993
+      objectReference: {fileID: 0}
+    - target: {fileID: -6529912339341296390, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3baa76228fb6514083b87dd0f4ba903, type: 2}
+    - target: {fileID: 919132149155446097, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+      propertyPath: m_Name
+      value: ArcherFish
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+--- !u!4 &3338760435697708558 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15d5e0e5ef54acb4e93338600496767f, type: 3}
+  m_PrefabInstance: {fileID: 3017149586631199205}
+  m_PrefabAsset: {fileID: 0}
